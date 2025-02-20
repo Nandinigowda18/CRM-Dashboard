@@ -1,6 +1,6 @@
 const express = require('express');
 const cors = require('cors');
-const nlp = require('compromise'); // No API Key needed!
+const nlp = require('compromise'); 
 
 const app = express();
 const port = process.env.PORT || 3000;
